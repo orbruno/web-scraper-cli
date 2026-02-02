@@ -1,0 +1,13 @@
+{
+  "name": "web-scraper-puppeteer",
+  "version": "1.0.0",
+  "description": "Puppeteer-based scraper for JavaScript-heavy pages like TaskCards",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:debug": "DEBUG=true node scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
