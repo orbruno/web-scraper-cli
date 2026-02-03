@@ -155,7 +155,7 @@ def display_results(data: dict, output_dir: Path, downloaded: bool) -> None:
 
 @click.group()
 @click.version_option(version="1.0.0")
-def cli():
+def cli() -> None:
     """Web Scraper CLI - Download files from JavaScript-heavy pages.
 
     Uses Puppeteer to render JavaScript and extract downloadable files
